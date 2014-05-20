@@ -4,8 +4,13 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	<h1>After clicking wait for "Done" alerts (read console logs)</h1>
-
+	<h1>Test Case</h1>
+	<p>After clicking wait for "Done" alerts (read console logs).</p>
+	<div id='started' style="display: none">
+		<h2>Started, please wait …</h2>
+		<progress></progress>
+		<p>Takes from 30 to 300 seconds :(</p>
+	</div>
 	<button onclick="run.startMain()">Start</button>
 	<hr />
 	<button onclick="run.startWorker()">Start on Worker</button>
