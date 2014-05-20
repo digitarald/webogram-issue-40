@@ -1,0 +1,13 @@
+{
+  "name": "Test case 1",
+  "description": "Test",
+  "version": "0.0.1",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Igor Zhukov",
+    "url": "https://github.com/zhukov"
+  },
+  "icons": {
+    "128": "https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/apps/important.png"
+  }
+}
