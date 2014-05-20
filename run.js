@@ -7,11 +7,11 @@ worker.onmessage = function onWorkerMessage(event) {
 var run = {
 
 	start: function() {
-		run.start = Date.now();
+		run.started = Date.now();
 	},
 
 	end: function(result) {
-		alert('Done: ' + (Date.now() - run.start) / 1000);
+		alert('Done: ' + (Date.now() - run.started) / 1000);
 	},
 
 	startMain: function() {
