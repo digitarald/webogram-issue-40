@@ -2,7 +2,7 @@
   "name": "Test case 1",
   "description": "Test",
   "version": "0.0.1",
-  "launch_path": "webogram-issue-40/index.html",
+  "launch_path": "/webogram-issue-40/index.html",
   "developer": {
     "name": "Igor Zhukov",
     "url": "https://github.com/zhukov"
